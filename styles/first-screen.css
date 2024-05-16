@@ -97,9 +97,6 @@ body {
 
 /* Mobile phones */
 @media only screen and (max-width: 480px) {
-  body {
-    margin: 0 auto;
-  }
   .main-container {
     display: flex;
     flex-direction: column;
@@ -153,67 +150,7 @@ body {
   }
 }
 
-/* For iPad Mini, iPad Air etc. */
-@media only screen and (min-width: 768px) and (max-height: 1024px) {
-  body {
-    margin: 0 auto;
-  }
-
-  .main-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 100%;
-    margin: 0 auto;
-    background: #f9f9f9;
-    overflow-y: auto;
-  }
-  .first-screen-main-block {
-    width: 100%;
-    height: auto;
-  }
-  .first-screen__menu {
-    margin: 30px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .first-screen__menu li {
-    margin-right: 2.2em !important;
-    font-size: 1.1em !important;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .Дизайн-верстка {
-    margin-top: 10px;
-    margin-left: 20px;
-  }
-
-  .font-class-text {
-    width: 400px !important;
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 5%;
-    font-size: 16px;
-    line-height: 24px;
-  }
-  .first-screen__button {
-    margin-top: 20px;
-    margin-bottom: 60px;
-    width: 20% !important;
-    height: 50px;
-    font-size: 0.7em !important;
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1920px) {
-  body {
-    margin: 0 auto;
-  }
+@media only screen and (min-width: 1025px) and (max-width: 1920px) {
   .main-container {
     display: flex;
     flex-direction: column;
@@ -230,90 +167,46 @@ body {
   }
   .first-screen__menu {
     margin: 50px 25px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    margin-left: 10%;
   }
 
   .first-screen__menu li {
-    margin-right: 2em;
-    font-size: 1.5em;
+    margin-right: 1.2em;
+    font-size: 1.2em;
     display: flex;
     flex-direction: column;
     text-align: center;
   }
 
   .Дизайн-верстка {
-    margin-top: 10px;
-    margin-left: 140px;
-    width: 60%;
+    margin-top: 0;
+    margin-left: 10%;
+    width: auto;
   }
 
   .font-class-h2 {
-    font-size: 3em;
+    font-size: 2.8em;
+    text-align: left;
   }
 
   .font-class-text {
-    width: 680px;
+    width: 40%;
     margin-top: 0;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     font-size: 1.2em;
     line-height: 1.5em;
     margin-left: 0;
   }
 
   .first-screen__button {
-    margin-top: 20px;
-    margin-bottom: 80px;
-    font-size: 1.2em;
-  }
-}
-
-@media only screen and (min-width: 1000px) and (max-width: 1028px) {
-  .first-screen__menu li {
-    margin-right: 2.2em !important;
-    font-size: 1.4em !important;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .font-class-text {
-    width: 400px !important;
     margin-top: 0;
-    margin-bottom: 10%;
-    font-size: 1.2em;
-    line-height: 1.5em;
-    margin-left: 0;
-  }
-
-  .first-screen__button {
-    width: 140px !important;
-    height: 40px !important;
-    margin-top: 20px;
     margin-bottom: 80px;
-    font-size: 0.8em !important;
+    font-size: 1.2em;
   }
 }
 
 /*  iPhone 14 Pro Max */
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
-  body {
-    margin: 0 auto;
-  }
-
-  .main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    margin: 0 auto;
-    background: #f9f9f9;
-    overflow-y: auto;
-  }
-
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .first-screen-main-block {
     width: 100%;
     height: auto;
@@ -321,9 +214,7 @@ body {
 
   .first-screen__menu {
     margin: 20px 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin-left: 10%;
   }
 
   .first-screen__menu li {
@@ -340,21 +231,24 @@ body {
     margin-left: 5%;
   }
 
-  .font-class-h2 {
-    font-size: 2.2em;
-  }
-
   .font-class-text {
-    width: 90%;
+    width: 60%;
     margin-top: 0;
+    margin-bottom: 5%;
     font-size: 1em;
     line-height: 1.5em;
+    margin-left: 0;
   }
 
   .first-screen__button {
-    width: 40%;
-    height: 40px;
-    margin-bottom: 10%;
-    font-size: 0.8em;
+    margin-top: 0;
+    margin-bottom: 80px;
+    font-size: 0.7em;
+    width: 30%;
+    height: 50px;
+  }
+
+  .font-class-h2 {
+    font-size: 2.2em;
   }
 }

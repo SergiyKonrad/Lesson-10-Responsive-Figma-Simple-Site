@@ -146,7 +146,7 @@
 }
 
 /* For iPads  */
-@media only screen and (min-width: 768px) and (max-height: 1024px) {
+@media only screen and (min-width: 769px) and (max-height: 1024px) {
   .video-block {
     display: flex;
     flex-direction: column;
@@ -199,7 +199,7 @@
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1920px) {
+@media only screen and (min-width: 1025px) and (max-width: 1920px) {
   .video-block {
     display: flex;
     flex-direction: column;
@@ -245,7 +245,7 @@
     width: auto;
     margin-bottom: 0;
     margin-top: 0;
-    margin-left: 80px;
+    margin-left: 10%;
   }
   .font-class-footer-text {
     font-size: 1.5em;
@@ -256,7 +256,7 @@
 }
 
 /*  iPhone 14 Pro Max */
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .video-block {
     display: flex;
     flex-direction: column;
@@ -301,7 +301,7 @@
     width: auto;
     margin-bottom: 0;
     margin-top: 0;
-    margin-left: 5%;
+    margin-left: 10%;
   }
   .font-class-footer-text {
     font-size: 1em;

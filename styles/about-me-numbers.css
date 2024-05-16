@@ -65,8 +65,8 @@
   }
 }
 
-/* For iPad (768px width and 1024px height) */
-@media only screen and (min-width: 768px) and (max-height: 1024px) {
+/* iPads, Laptops */
+@media only screen and (min-width: 769px) and (max-height: 1024px) {
   .about-me-block {
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1920px) {
+@media only screen and (min-width: 1025px) and (max-width: 1920px) {
   .about-me-block {
     display: flex;
     flex-direction: column;
@@ -111,7 +111,7 @@
 
   .font-class-about-h2 {
     margin-top: 8%;
-    font-size: 2.5em;
+    font-size: 2.2em;
     text-align: center;
   }
 
@@ -131,12 +131,16 @@
 }
 
 /*  iPhone 14 Pro Max */
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .about-me-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: auto;
-    width: 400px !important;
-    text-align: center;
   }
+
   .font-class-about-h2 {
     margin-top: 8%;
     font-size: 1.8em;
