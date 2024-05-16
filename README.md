@@ -1,1 +1,1 @@
-# Figma-simple-site
+# Responsive-Figma-Simple-Site
