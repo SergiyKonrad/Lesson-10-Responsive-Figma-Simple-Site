@@ -1,1 +1,1 @@
-# Responsive-Figma-Simple-Site
+Refactoring "Simple Site" using SCSS
