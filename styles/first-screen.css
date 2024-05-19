@@ -2,19 +2,39 @@ body {
   margin: 0 auto;
 }
 
-:root {
-  --primary-color: #eeeff1;
-  --secondary-color: #34547a;
-  --text-color: #727272;
-}
-
 .main-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   max-width: 1920px;
   margin: 0 auto;
   background: #f9f9f9;
+}
+
+@media only screen and (max-width: 480px) {
+  .main-container {
+    max-width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 945px) {
+  .main-container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 946px) and (max-width: 1080px) {
+  .main-container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1081px) {
+  .main-container {
+    max-width: 100%;
+  }
 }
 
 .first-screen-main-block {
@@ -22,7 +42,31 @@ body {
   flex-direction: column;
   width: 100%;
   height: 700px;
-  background: var(--primary-color);
+  background: #eeeff1;
+}
+
+@media only screen and (max-width: 480px) {
+  .first-screen-main-block {
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 945px) {
+  .first-screen-main-block {
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 946px) and (max-width: 1080px) {
+  .first-screen-main-block {
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1081px) {
+  .first-screen-main-block {
+    height: auto;
+  }
 }
 
 .first-screen__menu {
@@ -34,6 +78,7 @@ body {
   list-style-type: none;
   padding: 0;
   display: flex;
+  flex-direction: row;
   width: fit-content;
 }
 
@@ -52,9 +97,99 @@ body {
   color: #34547a;
 }
 
+@media only screen and (max-width: 480px) {
+  .first-screen__menu {
+    margin: 20px 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .first-screen__menu li {
+    width: calc(33.33% - 6px);
+    margin-right: 10px;
+    font-size: 0.7em !important;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 945px) {
+  .first-screen__menu {
+    margin: 20px 10px;
+    margin-left: 5%;
+    justify-content: center;
+  }
+
+  .first-screen__menu li {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 946px) and (max-width: 1080px) {
+  .first-screen__menu {
+    margin: 20px 10px;
+    margin-left: 10%;
+    justify-content: center;
+  }
+
+  .first-screen__menu li {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1081px) {
+  .first-screen__menu {
+    margin-top: 40px;
+    margin-left: 400px;
+  }
+
+  .first-screen__menu li {
+    margin-right: 1em;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 .Дизайн-верстка {
   margin-top: 100px;
   margin-left: 400px;
+}
+
+@media only screen and (max-width: 480px) {
+  .Дизайн-верстка {
+    margin: 10px 0 0 10px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 945px) {
+  .Дизайн-верстка {
+    margin: 10px 0 0 10px;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (min-width: 946px) and (max-width: 1080px) {
+  .Дизайн-верстка {
+    margin: 10px 0 0 10px;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (min-width: 1081px) {
+  .Дизайн-верстка {
+    margin-top: 100px;
+    margin-left: 400px;
+    width: auto;
+  }
 }
 
 .font-class-h2 {
@@ -67,21 +202,127 @@ body {
   width: 540px;
 }
 
+@media only screen and (max-width: 480px) {
+  .font-class-h2 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 945px) {
+  .font-class-h2 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 946px) and (max-width: 1080px) {
+  .font-class-h2 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 1081px) {
+  .font-class-h2 {
+    font-size: 2.8em;
+    text-align: left;
+  }
+}
+
 .font-class-text {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: var(--text-color);
+  color: #727272;
   width: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 480px) {
+  .font-class-text {
+    width: 300px;
+    margin-left: 5px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 945px) {
+  .font-class-text {
+    width: 300px;
+    margin-left: 5px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+
+@media only screen and (min-width: 946px) and (max-width: 1080px) {
+  .font-class-text {
+    width: 300px;
+    margin-left: 5px;
+    font-size: 14.4px;
+    line-height: 24px;
+  }
+}
+
+@media only screen and (min-width: 1081px) {
+  .font-class-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #727272;
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 .first-screen__button {
   margin-top: 40px;
   width: 225px;
   height: 65px;
-  background-color: var(--secondary-color);
+  background-color: #34547a;
+}
+
+@media only screen and (max-width: 480px) {
+  .first-screen__button {
+    margin: 20px 0 60px 0;
+    width: 40%;
+    height: 50px;
+    font-size: 0.7em !important;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 945px) {
+  .first-screen__button {
+    margin: 20px 0 60px 0;
+    width: 25%;
+    height: 60px;
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 946px) and (max-width: 1080px) {
+  .first-screen__button {
+    margin: 40px 0 60px 0;
+    width: 20%;
+    height: 60px;
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 1081px) {
+  .first-screen__button {
+    margin: 40px 0 80px 0;
+    font-size: 1.2em;
+  }
 }
 
 .font-class-button {
@@ -90,165 +331,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  color: #ffffff;
   text-align: center;
   letter-spacing: 0.1em;
-  color: #ffffff;
-}
-
-/* Mobile phones */
-@media only screen and (max-width: 480px) {
-  .main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    margin: 0 auto;
-    background: #f9f9f9;
-    overflow-y: auto;
-  }
-  .first-screen-main-block {
-    width: 100%;
-    height: auto;
-  }
-  .first-screen__menu {
-    margin: 20px 10px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .first-screen__menu li {
-    width: calc(33.33% - 6px);
-    margin-right: 5px;
-    font-size: 0.7em !important;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .Дизайн-верстка {
-    margin-top: 10px;
-    margin-left: 10px;
-  }
-  .font-class-h2 {
-    font-size: 2em;
-  }
-  .font-class-text {
-    width: 300px;
-    margin-top: 0;
-    font-size: 12px;
-    line-height: 24px;
-    margin-left: 5px;
-  }
-
-  .first-screen__button {
-    margin-top: 20px;
-    margin-bottom: 60px;
-    width: 40%;
-    height: 50px;
-    font-size: 0.8em;
-  }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1920px) {
-  .main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    margin: 0 auto;
-    background: #f9f9f9;
-    overflow-y: auto;
-  }
-  .first-screen-main-block {
-    width: 100%;
-    height: auto;
-  }
-  .first-screen__menu {
-    margin: 50px 25px;
-    margin-left: 10%;
-  }
-
-  .first-screen__menu li {
-    margin-right: 1.2em;
-    font-size: 1.2em;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .Дизайн-верстка {
-    margin-top: 0;
-    margin-left: 10%;
-    width: auto;
-  }
-
-  .font-class-h2 {
-    font-size: 2.8em;
-    text-align: left;
-  }
-
-  .font-class-text {
-    width: 40%;
-    margin-top: 0;
-    margin-bottom: 5%;
-    font-size: 1.2em;
-    line-height: 1.5em;
-    margin-left: 0;
-  }
-
-  .first-screen__button {
-    margin-top: 0;
-    margin-bottom: 80px;
-    font-size: 1.2em;
-  }
-}
-
-/*  iPhone 14 Pro Max */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  .first-screen-main-block {
-    width: 100%;
-    height: auto;
-  }
-
-  .first-screen__menu {
-    margin: 20px 20px;
-    margin-left: 10%;
-  }
-
-  .first-screen__menu li {
-    margin-right: 1em;
-    font-size: 0.8em;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .Дизайн-верстка {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 5%;
-  }
-
-  .font-class-text {
-    width: 60%;
-    margin-top: 0;
-    margin-bottom: 5%;
-    font-size: 1em;
-    line-height: 1.5em;
-    margin-left: 0;
-  }
-
-  .first-screen__button {
-    margin-top: 0;
-    margin-bottom: 80px;
-    font-size: 0.7em;
-    width: 30%;
-    height: 50px;
-  }
-
-  .font-class-h2 {
-    font-size: 2.2em;
-  }
 }
