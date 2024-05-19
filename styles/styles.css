@@ -31,7 +31,7 @@ body {
 }
 @media only screen and (min-width: 1081px) {
   .main-container {
-    max-width: 1920px;
+    max-width: 100%;
   }
 }
 
@@ -59,7 +59,7 @@ body {
 }
 @media only screen and (min-width: 1081px) {
   .first-screen-main-block {
-    height: 700px;
+    height: auto;
   }
 }
 
@@ -267,29 +267,29 @@ body {
   .first-screen__button {
     margin: 20px 0 60px 0;
     width: 40%;
-    height: 60px;
-    font-size: 0.8em;
+    height: 50px;
+    font-size: 0.7em !important;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 945px) {
   .first-screen__button {
     margin: 20px 0 60px 0;
-    width: 40%;
+    width: 25%;
     height: 60px;
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
 @media only screen and (min-width: 946px) and (max-width: 1080px) {
   .first-screen__button {
-    margin: 20px 0 60px 0;
+    margin: 40px 0 60px 0;
     width: 20%;
     height: 60px;
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
 @media only screen and (min-width: 1081px) {
   .first-screen__button {
-    margin: 0 0 80px 0;
+    margin: 40px 0 80px 0;
     font-size: 1.2em;
   }
 }
