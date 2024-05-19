@@ -1,0 +1,122 @@
+.about-me-block {
+  width: 540px;
+  height: 359px;
+  // text-align: center;
+  @include center;
+  @include flex-column;
+
+  @include mobile {
+    width: 100%;
+    height: auto;
+  }
+
+  @include tablet {
+    width: 90%;
+    height: auto;
+  }
+
+  @include laptop {
+    width: 75%;
+    height: auto;
+  }
+
+  @include desktop {
+    width: 540px;
+    height: 359px;
+  }
+}
+
+.font-class-about-h2 {
+  margin-top: 110px;
+  @include heading-font(32px, 38px);
+
+  @include mobile {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 40px;
+  }
+
+  @include tablet {
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 60px;
+  }
+
+  @include laptop {
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 70px;
+  }
+
+  @include desktop {
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 110px;
+  }
+}
+
+.numbers-block {
+  @include center;
+  margin-top: 5%;
+  width: 100%;
+  height: 250px;
+  background: $secondary-color;
+
+  @include mobile {
+    overflow-x: auto;
+    height: 140px;
+  }
+
+  @include tablet {
+    overflow-x: auto;
+    height: 200px;
+  }
+
+  @include laptop {
+    margin-top: 5%;
+    height: 220px;
+  }
+
+  @include desktop {
+    margin-top: 5%;
+    height: 250px;
+  }
+}
+
+.numbers-items-block {
+  @include flex-row;
+}
+
+.numbers__item {
+  width: 141px;
+  height: 50px;
+  background-size: cover;
+  margin-right: 45px;
+
+  @include mobile {
+    width: 80px;
+    height: 40px;
+    margin-right: 15%;
+  }
+
+  @include tablet {
+    width: 120px;
+    height: 45px;
+    margin-right: 10%;
+  }
+
+  @include laptop {
+    width: 130px;
+    height: 48px;
+    margin-right: 14px;
+  }
+
+  @include desktop {
+    width: 141px;
+    height: 50px;
+    margin-right: 35px;
+  }
+}
+
+//
+//

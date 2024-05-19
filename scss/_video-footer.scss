@@ -1,0 +1,239 @@
+.video-block {
+  @include center;
+  @include flex-column;
+  text-align: center;
+  width: 100%;
+  height: 1004px;
+  background: $primary-color;
+  overflow-x: hidden;
+  @include mobile {
+    height: auto;
+  }
+
+  @include tablet {
+    height: auto;
+  }
+
+  @include laptop {
+    height: auto;
+  }
+
+  @include desktop {
+    height: 1004px;
+  }
+}
+
+.video-title {
+  margin-top: 0;
+  width: 100%;
+
+  @include mobile {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  @include tablet {
+    margin-top: 60px;
+    width: 100%;
+  }
+
+  @include laptop {
+    margin-top: 70px;
+    width: 100%;
+  }
+
+  @include desktop {
+    margin-top: 0;
+    width: 100%;
+  }
+}
+
+.video-inline-block {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1110px;
+  height: 600px;
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.85));
+  @include center;
+  overflow-x: hidden;
+
+  @include mobile {
+    width: 80%;
+    height: auto;
+    height: auto;
+    margin-bottom: 5%;
+  }
+
+  @include tablet {
+    width: 90%;
+    height: auto;
+    margin-bottom: 5%;
+  }
+
+  @include laptop {
+    width: 90%;
+    height: auto;
+    margin-bottom: 10%;
+  }
+
+  @include desktop {
+    width: 1110px;
+    height: 600px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.play-button {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @include mobile {
+    width: 50px;
+    height: 50px;
+  }
+
+  @include tablet {
+    width: 50px;
+    height: 50px;
+  }
+
+  @include laptop {
+    width: 75px;
+    height: 75px;
+  }
+
+  @include desktop {
+    width: 100px;
+    height: 100px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.footer-block {
+  @include flex-column;
+  width: 100%;
+  height: $footer-height;
+  bottom: 0px;
+  background: $secondary-color;
+  overflow-x: hidden;
+
+  @include mobile {
+    height: auto;
+  }
+
+  @include tablet {
+    height: auto;
+  }
+
+  @include laptop {
+    height: auto;
+  }
+
+  @include desktop {
+    height: $footer-height;
+  }
+}
+
+.footer-text {
+  margin-top: $footer-text-margin-top;
+
+  margin-left: $footer-text-margin-left;
+  width: $footer-text-width;
+
+  @include mobile {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 10px;
+  }
+
+  @include tablet {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 5%;
+  }
+
+  @include laptop {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 5% !important;
+  }
+
+  @include desktop {
+    margin-bottom: 0;
+    margin-top: $footer-text-margin-top;
+    width: $footer-text-width;
+  }
+}
+
+.font-class-footer-text {
+  @include heading-font(
+    $footer-font-size,
+    $footer-line-height,
+    500,
+    $footer-font-color
+  );
+
+  @include mobile {
+    font-size: calculate-font-size(1.4);
+    line-height: calculate-font-size(2);
+  }
+
+  @include tablet {
+    font-size: calculate-font-size(1.75);
+    line-height: calculate-font-size(2.08);
+  }
+
+  @include laptop {
+    font-size: calculate-font-size(1.75);
+    line-height: calculate-font-size(2.08);
+  }
+
+  @include desktop {
+    font-size: $footer-font-size;
+    line-height: $footer-line-height;
+  }
+}
+
+.font-class-copyright-text {
+  @include heading-font(
+    $copyright-font-size,
+    $copyright-line-height,
+    400,
+    $footer-font-color
+  );
+
+  @include mobile {
+    font-size: calculate-font-size(1);
+    line-height: calculate-font-size(1.75);
+  }
+
+  @include tablet {
+    font-size: calculate-font-size(1.08);
+    line-height: calculate-font-size(1.75);
+  }
+
+  @include laptop {
+    font-size: calculate-font-size(1.08);
+    line-height: calculate-font-size(1.75);
+  }
+
+  @include desktop {
+    font-size: $copyright-font-size;
+    line-height: $copyright-line-height;
+  }
+}

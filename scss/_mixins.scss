@@ -1,0 +1,29 @@
+// _mixins.scss
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin heading-font($size, $line-height, $weight: 500, $color: #000000) {
+  font-family: $heading-font-family;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $line-height;
+  color: $color;
+}
+
+@function calculate-font-size($size) {
+  @return 12px * $size;
+}

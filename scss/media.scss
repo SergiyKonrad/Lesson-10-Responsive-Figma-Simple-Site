@@ -1,0 +1,24 @@
+// _media.scss
+@mixin mobile {
+  @media only screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (min-width: 481px) and (max-width: 945px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media only screen and (min-width: 946px) and (max-width: 1080px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media only screen and (min-width: 1081px) {
+    @content;
+  }
+}
