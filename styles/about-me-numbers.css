@@ -132,7 +132,8 @@
   .numbers__item {
     width: 80px;
     height: 40px;
-    margin-right: 15%;
+    margin-right: 6%;
+    margin-left: 7%;
   }
 }
 
@@ -144,7 +145,7 @@
   }
 }
 
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .numbers__item {
     width: 130px;
     height: 48px;

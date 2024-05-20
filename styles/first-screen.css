@@ -10,6 +10,7 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   background: #f9f9f9;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 480px) {
@@ -106,8 +107,8 @@ body {
 
   .first-screen__menu li {
     width: calc(33.33% - 6px);
-    margin-right: 10px;
-    font-size: 0.7em !important;
+    margin-right: 8px;
+    font-size: 0.8em;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -129,7 +130,8 @@ body {
   }
 }
 
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+/* !!! */
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .first-screen__menu {
     margin: 20px 10px;
     margin-left: 10%;
@@ -177,7 +179,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .Дизайн-верстка {
     margin: 10px 0 0 10px;
     margin-left: 10%;
