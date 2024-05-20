@@ -16,6 +16,7 @@ body {
 
   @include tablet {
     max-width: 100%;
+    overflow: hidden;
   }
 
   @include laptop {
@@ -83,8 +84,8 @@ body {
 
     li {
       width: calc(33.33% - 6px);
-      margin-right: 10px;
-      font-size: 0.7em !important;
+      margin-right: 8px;
+      font-size: 0.7em;
       @include flex-column;
       text-align: center;
     }
@@ -96,8 +97,8 @@ body {
     justify-content: center;
 
     li {
-      margin-right: 20px;
-
+      margin-right: 14px;
+      font-size: 0.8em;
       @include flex-column;
       text-align: center;
     }
@@ -192,7 +193,7 @@ body {
   @include tablet {
     width: 300px;
     margin-left: 5px;
-    font-size: calculate-font-size(1);
+    font-size: calculate-font-size(1.1);
     line-height: 24px;
   }
 
@@ -248,4 +249,8 @@ body {
   @include heading-font(16px, 26px, 400, $white-color);
   text-align: center;
   letter-spacing: 0.1em;
+
+  @include tablet {
+    @include heading-font(12px, 24px, 400, $white-color);
+  }
 }

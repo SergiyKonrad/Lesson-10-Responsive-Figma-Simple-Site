@@ -189,18 +189,18 @@
   );
 
   @include mobile {
-    font-size: calculate-font-size(1.4);
-    line-height: calculate-font-size(2);
+    font-size: calculate-font-size(1);
+    line-height: calculate-font-size(1);
   }
 
   @include tablet {
-    font-size: calculate-font-size(1.75);
-    line-height: calculate-font-size(2.08);
+    font-size: calculate-font-size(1.25);
+    line-height: calculate-font-size(1);
   }
 
   @include laptop {
-    font-size: calculate-font-size(1.75);
-    line-height: calculate-font-size(2.08);
+    font-size: calculate-font-size(1.4);
+    line-height: calculate-font-size(1);
   }
 
   @include desktop {
@@ -228,7 +228,7 @@
   }
 
   @include laptop {
-    font-size: calculate-font-size(1.08);
+    font-size: calculate-font-size(1.2);
     line-height: calculate-font-size(1.75);
   }
 

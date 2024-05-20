@@ -22,9 +22,10 @@ body {
 @media only screen and (min-width: 481px) and (max-width: 945px) {
   .main-container {
     max-width: 100%;
+    overflow: hidden;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .main-container {
     max-width: 100%;
   }
@@ -52,7 +53,7 @@ body {
     height: auto;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .first-screen-main-block {
     height: auto;
   }
@@ -95,8 +96,8 @@ body {
   }
   .first-screen__menu li {
     width: calc(33.33% - 6px);
-    margin-right: 10px;
-    font-size: 0.7em !important;
+    margin-right: 8px;
+    font-size: 0.7em;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -109,13 +110,14 @@ body {
     justify-content: center;
   }
   .first-screen__menu li {
-    margin-right: 20px;
+    margin-right: 14px;
+    font-size: 0.8em;
     display: flex;
     flex-direction: column;
     text-align: center;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .first-screen__menu {
     margin: 20px 10px;
     margin-left: 10%;
@@ -157,7 +159,7 @@ body {
     margin-left: 5%;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .Дизайн-верстка {
     margin: 10px 0 0 10px;
     margin-left: 10%;
@@ -190,7 +192,7 @@ body {
     font-size: 2em;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .font-class-h2 {
     font-size: 2em;
   }
@@ -228,11 +230,11 @@ body {
   .font-class-text {
     width: 300px;
     margin-left: 5px;
-    font-size: 12px;
+    font-size: 13.2px;
     line-height: 24px;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .font-class-text {
     width: 300px;
     margin-left: 5px;
@@ -279,7 +281,7 @@ body {
     font-size: 0.7em;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .first-screen__button {
     margin: 40px 0 60px 0;
     width: 20%;
@@ -304,6 +306,16 @@ body {
   text-align: center;
   letter-spacing: 0.1em;
 }
+@media only screen and (min-width: 481px) and (max-width: 945px) {
+  .font-class-button {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+}
 
 .about-me-block {
   width: 540px;
@@ -327,7 +339,7 @@ body {
     height: auto;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .about-me-block {
     width: 75%;
     height: auto;
@@ -363,7 +375,7 @@ body {
     margin-top: 60px;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .font-class-about-h2 {
     font-size: 30px;
     line-height: 36px;
@@ -399,7 +411,7 @@ body {
     height: 200px;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .numbers-block {
     margin-top: 5%;
     height: 220px;
@@ -427,7 +439,8 @@ body {
   .numbers__item {
     width: 80px;
     height: 40px;
-    margin-right: 15%;
+    margin-right: 6%;
+    margin-left: 7%;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 945px) {
@@ -437,7 +450,7 @@ body {
     margin-right: 10%;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .numbers__item {
     width: 130px;
     height: 48px;
@@ -474,7 +487,7 @@ body {
     height: auto;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .video-block {
     height: auto;
   }
@@ -501,7 +514,7 @@ body {
     width: 100%;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .video-title {
     margin-top: 70px;
     width: 100%;
@@ -541,7 +554,7 @@ body {
     margin-bottom: 5%;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .video-inline-block {
     width: 90%;
     height: auto;
@@ -580,7 +593,7 @@ body {
     height: 50px;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .play-button {
     width: 75px;
     height: 75px;
@@ -617,7 +630,7 @@ body {
     height: auto;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .footer-block {
     height: auto;
   }
@@ -647,7 +660,7 @@ body {
     margin-left: 5%;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .footer-text {
     margin-bottom: 0;
     margin-top: 0;
@@ -672,20 +685,20 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .font-class-footer-text {
-    font-size: 16.8px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 12px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 945px) {
   .font-class-footer-text {
-    font-size: 21px;
-    line-height: 24.96px;
+    font-size: 15px;
+    line-height: 12px;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .font-class-footer-text {
-    font-size: 21px;
-    line-height: 24.96px;
+    font-size: 16.8px;
+    line-height: 12px;
   }
 }
 @media only screen and (min-width: 1081px) {
@@ -715,9 +728,9 @@ body {
     line-height: 21px;
   }
 }
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .font-class-copyright-text {
-    font-size: 12.96px;
+    font-size: 14.4px;
     line-height: 21px;
   }
 }
