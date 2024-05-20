@@ -130,7 +130,7 @@ body {
 }
 
 .Дизайн-верстка {
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: 400px;
 
   @include mobile {
@@ -138,17 +138,17 @@ body {
   }
 
   @include tablet {
-    margin: 10px 0 0 10px;
+    margin: 20px 0 0 10px;
     margin-left: 5%;
   }
 
   @include laptop {
-    margin: 10px 0 0 10px;
+    margin: 30px 0 0 10px;
     margin-left: 10%;
   }
 
   @include desktop {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 400px;
     width: auto;
   }
@@ -214,6 +214,7 @@ body {
 
 .first-screen__button {
   margin-top: 40px;
+  margin-bottom: 120px;
   width: 225px;
   height: 65px;
   background-color: $secondary-color;
@@ -226,21 +227,21 @@ body {
   }
 
   @include tablet {
-    margin: 20px 0 60px 0;
+    margin: 20px 0 80px 0;
     width: 25%;
     height: $button-height;
     font-size: 0.7em;
   }
 
   @include laptop {
-    margin: 40px 0 60px 0;
+    margin: 40px 0 100px 0;
     width: 20%;
     height: $button-height;
     font-size: 0.7em;
   }
 
   @include desktop {
-    margin: 40px 0 80px 0;
+    margin: 40px 0 120px 0;
     font-size: 1.2em;
   }
 }

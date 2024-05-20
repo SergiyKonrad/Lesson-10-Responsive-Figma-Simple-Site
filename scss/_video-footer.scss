@@ -194,12 +194,12 @@
   }
 
   @include tablet {
-    font-size: calculate-font-size(1.25);
+    font-size: calculate-font-size(1.1);
     line-height: calculate-font-size(1);
   }
 
   @include laptop {
-    font-size: calculate-font-size(1.4);
+    font-size: calculate-font-size(1.2);
     line-height: calculate-font-size(1);
   }
 
@@ -223,12 +223,12 @@
   }
 
   @include tablet {
-    font-size: calculate-font-size(1.08);
+    font-size: calculate-font-size(1.05);
     line-height: calculate-font-size(1.75);
   }
 
   @include laptop {
-    font-size: calculate-font-size(1.2);
+    font-size: calculate-font-size(1.1);
     line-height: calculate-font-size(1.75);
   }
 
