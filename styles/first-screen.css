@@ -108,7 +108,7 @@ body {
   .first-screen__menu li {
     width: calc(33.33% - 6px);
     margin-right: 8px;
-    font-size: 0.8em;
+    font-size: 0.7em;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -123,7 +123,8 @@ body {
   }
 
   .first-screen__menu li {
-    margin-right: 20px;
+    margin-right: 12px;
+    font-size: 0.8em;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -175,7 +176,7 @@ body {
 @media only screen and (min-width: 481px) and (max-width: 945px) {
   .Дизайн-верстка {
     margin: 10px 0 0 10px;
-    margin-left: 5%;
+    margin-left: 40px;
   }
 }
 
