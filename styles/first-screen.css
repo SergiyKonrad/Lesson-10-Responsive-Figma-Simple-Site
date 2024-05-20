@@ -10,7 +10,7 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   background: #f9f9f9;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 @media only screen and (max-width: 480px) {
