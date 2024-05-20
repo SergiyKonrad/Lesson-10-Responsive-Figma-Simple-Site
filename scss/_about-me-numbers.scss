@@ -3,6 +3,7 @@
   height: 359px;
   @include center;
   @include flex-column;
+  text-align: center;
 
   @include mobile {
     width: 100%;
@@ -113,7 +114,7 @@
   @include desktop {
     width: 141px;
     height: 50px;
-    margin-right: 35px;
+    margin-right: 32px;
   }
 }
 

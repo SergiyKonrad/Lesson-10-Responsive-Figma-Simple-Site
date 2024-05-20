@@ -75,7 +75,7 @@ body {
   width: fit-content;
 }
 .first-screen__menu li {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-right: 40px;
   font-style: normal;
   font-weight: 500;
@@ -172,7 +172,7 @@ body {
 }
 
 .font-class-h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -203,7 +203,7 @@ body {
 }
 
 .font-class-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -242,7 +242,7 @@ body {
 }
 @media only screen and (min-width: 1081px) {
   .font-class-text {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -295,7 +295,7 @@ body {
 }
 
 .font-class-button {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -311,7 +311,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   text-align: center;
 }
@@ -342,7 +342,7 @@ body {
 
 .font-class-about-h2 {
   margin-top: 110px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -663,7 +663,7 @@ body {
 }
 
 .font-class-footer-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 21px;
@@ -696,7 +696,7 @@ body {
 }
 
 .font-class-copyright-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
