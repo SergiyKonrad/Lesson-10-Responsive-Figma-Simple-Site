@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0 auto;
 }
@@ -5,33 +6,30 @@ body {
 .main-container {
   display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
   max-width: 1920px;
   margin: 0 auto;
   background: #f9f9f9;
-  /* overflow: hidden; */
 }
-
 @media only screen and (max-width: 480px) {
   .main-container {
     max-width: 100%;
     overflow: hidden;
   }
 }
-
 @media only screen and (min-width: 481px) and (max-width: 945px) {
   .main-container {
     max-width: 100%;
+    overflow: hidden;
   }
 }
-
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .main-container {
     max-width: 100%;
   }
 }
-
 @media only screen and (min-width: 1081px) {
   .main-container {
     max-width: 100%;
@@ -45,25 +43,21 @@ body {
   height: 700px;
   background: #eeeff1;
 }
-
 @media only screen and (max-width: 480px) {
   .first-screen-main-block {
     height: auto;
   }
 }
-
 @media only screen and (min-width: 481px) and (max-width: 945px) {
   .first-screen-main-block {
     height: auto;
   }
 }
-
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .first-screen-main-block {
     height: auto;
   }
 }
-
 @media only screen and (min-width: 1081px) {
   .first-screen-main-block {
     height: auto;
@@ -74,7 +68,6 @@ body {
   margin-top: 40px;
   margin-left: 400px;
 }
-
 .first-screen__menu ul {
   list-style-type: none;
   padding: 0;
@@ -82,7 +75,6 @@ body {
   flex-direction: row;
   width: fit-content;
 }
-
 .first-screen__menu li {
   font-family: 'Roboto', sans-serif;
   margin-right: 40px;
@@ -93,18 +85,15 @@ body {
   letter-spacing: 0.1em;
   cursor: pointer;
 }
-
 .first-screen__menu li:hover {
   color: #34547a;
 }
-
 @media only screen and (max-width: 480px) {
   .first-screen__menu {
     margin: 20px 10px;
     justify-content: center;
     flex-wrap: wrap;
   }
-
   .first-screen__menu li {
     width: calc(33.33% - 6px);
     margin-right: 8px;
@@ -114,31 +103,26 @@ body {
     text-align: center;
   }
 }
-
 @media only screen and (min-width: 481px) and (max-width: 945px) {
   .first-screen__menu {
     margin: 20px 10px;
     margin-left: 5%;
     justify-content: center;
   }
-
   .first-screen__menu li {
-    margin-right: 12px;
+    margin-right: 14px;
     font-size: 0.8em;
     display: flex;
     flex-direction: column;
     text-align: center;
   }
 }
-
-/* !!! */
 @media only screen and (min-width: 945px) and (max-width: 1080px) {
   .first-screen__menu {
     margin: 20px 10px;
     margin-left: 10%;
     justify-content: center;
   }
-
   .first-screen__menu li {
     margin-right: 30px;
     display: flex;
@@ -146,13 +130,11 @@ body {
     text-align: center;
   }
 }
-
 @media only screen and (min-width: 1081px) {
   .first-screen__menu {
     margin-top: 40px;
     margin-left: 400px;
   }
-
   .first-screen__menu li {
     margin-right: 1em;
     font-size: 1.2em;
@@ -163,33 +145,29 @@ body {
 }
 
 .Дизайн-верстка {
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: 400px;
 }
-
 @media only screen and (max-width: 480px) {
   .Дизайн-верстка {
     margin: 10px 0 0 10px;
   }
 }
-
 @media only screen and (min-width: 481px) and (max-width: 945px) {
   .Дизайн-верстка {
-    margin: 10px 0 0 10px;
-    margin-left: 40px;
+    margin: 20px 0 0 10px;
+    margin-left: 5%;
   }
 }
-
 @media only screen and (min-width: 945px) and (max-width: 1080px) {
   .Дизайн-верстка {
-    margin: 10px 0 0 10px;
+    margin: 30px 0 0 10px;
     margin-left: 10%;
   }
 }
-
 @media only screen and (min-width: 1081px) {
   .Дизайн-верстка {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 400px;
     width: auto;
   }
@@ -204,25 +182,21 @@ body {
   color: #000000;
   width: 540px;
 }
-
 @media only screen and (max-width: 480px) {
   .font-class-h2 {
     font-size: 2em;
   }
 }
-
 @media only screen and (min-width: 481px) and (max-width: 945px) {
   .font-class-h2 {
     font-size: 2em;
   }
 }
-
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .font-class-h2 {
     font-size: 2em;
   }
 }
-
 @media only screen and (min-width: 1081px) {
   .font-class-h2 {
     font-size: 2.8em;
@@ -241,9 +215,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
   flex-direction: column;
 }
-
 @media only screen and (max-width: 480px) {
   .font-class-text {
     width: 300px;
@@ -252,17 +226,15 @@ body {
     line-height: 24px;
   }
 }
-
 @media only screen and (min-width: 481px) and (max-width: 945px) {
   .font-class-text {
     width: 300px;
     margin-left: 5px;
-    font-size: 12px;
+    font-size: 13.2px;
     line-height: 24px;
   }
 }
-
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
   .font-class-text {
     width: 300px;
     margin-left: 5px;
@@ -270,7 +242,6 @@ body {
     line-height: 24px;
   }
 }
-
 @media only screen and (min-width: 1081px) {
   .font-class-text {
     font-family: 'Roboto', sans-serif;
@@ -283,48 +254,53 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
     flex-direction: column;
   }
 }
 
 .first-screen__button {
   margin-top: 40px;
+  margin-bottom: 120px;
   width: 225px;
   height: 65px;
   background-color: #34547a;
 }
-
 @media only screen and (max-width: 480px) {
   .first-screen__button {
     margin: 20px 0 60px 0;
-    width: 40%;
+    max-width: 33%;
     height: 50px;
     font-size: 0.7em !important;
   }
 }
-
-@media only screen and (min-width: 481px) and (max-width: 945px) {
+@media only screen and (min-width: 481px) and (max-width: 720px) {
   .first-screen__button {
-    margin: 20px 0 60px 0;
+    margin: 20px 0 80px 0;
+    max-width: 30%;
+    height: 60px;
+    font-size: 0.7em !important;
+  }
+}
+@media only screen and (min-width: 721px) and (max-width: 945px) {
+  .first-screen__button {
+    margin: 20px 0 80px 0;
+    max-width: 25%;
+    height: 65px;
+    font-size: 0.8em !important;
+  }
+}
+
+@media only screen and (min-width: 945px) and (max-width: 1080px) {
+  .first-screen__button {
+    margin: 40px 0 100px 0;
     width: 25%;
-    height: 60px;
-    font-size: 0.7em;
+    height: 70px;
   }
 }
-
-@media only screen and (min-width: 946px) and (max-width: 1080px) {
-  .first-screen__button {
-    margin: 40px 0 60px 0;
-    width: 20%;
-    height: 60px;
-    font-size: 0.7em;
-  }
-}
-
 @media only screen and (min-width: 1081px) {
   .first-screen__button {
-    margin: 40px 0 80px 0;
-    font-size: 1.2em;
+    margin: 40px 0 120px 0;
   }
 }
 
@@ -337,4 +313,14 @@ body {
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.1em;
+}
+@media only screen and (min-width: 481px) and (max-width: 945px) {
+  .font-class-button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #ffffff;
+  }
 }
